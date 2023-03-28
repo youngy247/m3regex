@@ -2,7 +2,7 @@
 
 $resources = 'w3schools.com, regex101.com, www.regular-expressions.info';
 
-$pattern = '/\d{2,}/';
+$pattern = '/\d/';
 $matches = [];
 $result = preg_match_all($pattern, $resources, $matches);
 
